@@ -32,12 +32,12 @@ CREATE TABLE `books` (
   `title` varchar(255) NOT NULL,
   `author` varchar(255) NOT NULL,
   `year` int(11) NOT NULL
-) 
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data untuk tabel `books`
 --
-ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
 INSERT INTO `books` (`id`, `title`, `author`, `year`) VALUES
 ('B001', 'Pemograman Web Modern', 'Andi Nugroho', 2023),
 ('B002', 'Pemodelan Database', 'Septi Wahyuningsih', 2022);
